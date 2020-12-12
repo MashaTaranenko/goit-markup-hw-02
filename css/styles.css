@@ -1,0 +1,112 @@
+:root {
+  --main-dark-color: #212121;
+  --second-dark-color: #757575;
+  --main-white-color: #ffffff;
+  --accent: #2196f3;
+  --dark-background: #2f303a;
+}
+
+body {
+  font: Roboto;
+  background: #ffffff;
+  color: var(--second-dark-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Logo */
+
+.header-logo {
+  color: var(--accent);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.header-studio {
+  color: #000000;
+}
+
+/* Header */
+
+.site-nav {
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--main-dark-color);
+}
+
+.nav-link.current {
+  color: var(--accent);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent);
+}
+
+.auth-link {
+  color: var(--second-dark-color);
+}
+
+.auth-link:hover,
+.auth-link:focus {
+  color: var(--accent);
+}
+
+/* Hero */
+
+.hero {
+  background: var(--dark-background);
+}
+
+.hero-title {
+  color: var(--main-white-color);
+  text-align: center;
+}
+
+/* Sections */
+
+.section-title {
+  color: var(--main-dark-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.team {
+  background: #f5f4fa;
+}
+
+.features-title {
+  color: var(--main-dark-color);
+}
+
+.team-list .name {
+  color: var(--main-dark-color);
+}
+
+/* Footer */
+
+footer {
+  background: var(--dark-background);
+}
+
+.footer-logo {
+  color: var(--accent);
+}
+
+.footer-studio {
+  color: var(--main-white-color);
+}
+/* Button */
+
+.button {
+  background-color: var(--accent);
+  color: var(--main-white-color);
+  text-align: center;
+}
