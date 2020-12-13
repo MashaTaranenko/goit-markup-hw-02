@@ -4,16 +4,25 @@
   --main-white-color: #ffffff;
   --accent: #2196f3;
   --dark-background: #2f303a;
+  --btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 body {
-  font: Roboto;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   background: #ffffff;
   color: var(--second-dark-color);
 }
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 /* Logo */
@@ -105,8 +114,46 @@ footer {
 }
 /* Button */
 
-.button {
+.hero-button {
   background-color: var(--accent);
   color: var(--main-white-color);
+}
+
+button {
+  color: var(--main-dark-color);
+  background: #f5f4fa;
   text-align: center;
+}
+/* Portfolio */
+
+.btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  border-style: none;
+  border-radius: 4px;
+  box-shadow: var(--btn-shadow);
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  background: var(--accent);
+}
+
+.examples-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-dark-color);
+}
+
+.examples-description {
+  font-style: 400;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--second-dark-color);
 }
