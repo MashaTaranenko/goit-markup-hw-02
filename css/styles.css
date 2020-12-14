@@ -29,10 +29,10 @@ ul {
 
 .header-logo {
   color: var(--accent);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 
 .header-studio {
@@ -112,6 +112,25 @@ footer {
 .footer-studio {
   color: var(--main-white-color);
 }
+.footer-logo,
+.footer-studio {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.address-street {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--main-white-color);
+}
+
+.address-contact {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* Button */
 
 .hero-button {
