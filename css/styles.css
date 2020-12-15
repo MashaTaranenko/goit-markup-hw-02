@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -27,22 +27,31 @@ ul {
 
 /* Logo */
 
-.header-logo {
-  color: var(--accent);
-  font-family: 'Raleway', sans-serif;
+.logo-web {
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  color: var(--accent);
 }
 
 .header-studio {
   color: #000000;
 }
 
+.footer-studio {
+  color: var(--main-white-color);
+}
+
 /* Header */
 
-.site-nav {
+.site-nav,
+.auth-nav {
   list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-link {
@@ -75,49 +84,62 @@ ul {
 
 .hero-title {
   color: var(--main-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Sections */
 
 .section-title {
-  color: var(--main-dark-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-dark-color);
 }
 
 .team {
   background: #f5f4fa;
 }
 
-.features-title {
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--main-dark-color);
+}
+
+.advantages-description {
+  line-height: 1.14;
 }
 
 .team-list .name {
   color: var(--main-dark-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-list .profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
 
 footer {
   background: var(--dark-background);
-}
-
-.footer-logo {
-  color: var(--accent);
-}
-
-.footer-studio {
-  color: var(--main-white-color);
-}
-.footer-logo,
-.footer-studio {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .address-street {
@@ -134,6 +156,18 @@ footer {
 /* Button */
 
 .hero-button {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   background-color: var(--accent);
   color: var(--main-white-color);
 }
@@ -168,7 +202,6 @@ button {
 }
 
 .examples-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -177,8 +210,6 @@ button {
 }
 
 .examples-description {
-  font-style: 400;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
