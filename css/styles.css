@@ -193,6 +193,7 @@ button {
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
+  color: var(--main-white-color);
   background: var(--accent);
 }
 
